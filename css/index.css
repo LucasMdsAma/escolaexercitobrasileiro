@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lobster&family=Noto+Serif+Vithkuqi:wght@400;500;600;700&family=Oswald:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid black ;
+}
+
+.navbar .logo{
+    padding: 10px;
+    width: 90px;
+    height: 80px;
+}
+
+.navbar .logoh1{
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+    color: black;
+    left: 10px;
+    top: 24px;
+    position: absolute;
+    margin-left:120px ;
+    font-size: 35px;
+}
+
+.navbar .menu .linksmenu{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.navbar .menu .linksmenu:hover{
+    opacity: 0.5;
+    transition-delay: 150ms;
+    color:green;
+}
+
+.navbar .logoh1:hover{
+    opacity: 0.5;
+    transition-delay: 150ms;
+    color:green;
+}
+
+
+/*HEADLINE*/
+
+
+header{
+    background:rgb(163, 163, 163);
+    margin: 30px;
+    height: 300px;
+}
+
+.headline{
+    border: 1px solid red;
+}
+
+.headline h2{
+    display: inline-block;
+    border: 1px solid green;
+}
