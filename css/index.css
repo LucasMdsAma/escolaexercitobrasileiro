@@ -50,6 +50,48 @@ nav{
     color:green;
 }
 
+.facebookicon{
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom:20px;
+    right: 10px;
+    z-index: 5;
+}
+
+/* SECTION */
+
+section{
+    border: 1px solid;
+    margin: 15px;
+    height: 400px;
+}
+
+/* FOOTER */
+
+footer{
+    border-top:2px solid black;
+    background-color: white;
+    bottom: 0;
+    position: fixed;
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-rodape{
+    padding: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.linksrodape{
+    display: inline;
+    padding: 3px;
+    margin: 3px;
+    float: left;
+    border: 1px solid red;
+}
 
 /*HEADLINE*/
 
