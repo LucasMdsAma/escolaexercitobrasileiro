@@ -31,6 +31,7 @@ nav{
 }
 
 .navbar .menu .linksmenu{
+    /* display:none; */
     text-decoration: none;
     color: black;
     padding: 6px;
@@ -64,7 +65,8 @@ nav{
 section{
     border: 1px solid;
     margin: 15px;
-    height: 400px;
+    margin-top: 70px;
+    height: auto;
 }
 
 /* FOOTER */
@@ -85,28 +87,21 @@ footer{
     font-family: 'Shadows Into Light', cursive;
 }
 
-.linksrodape{
-    display: inline;
-    padding: 3px;
-    margin: 3px;
-    float: left;
-    border: 1px solid red;
-}
-
 /*HEADLINE*/
 
 
-/* header{
-    background:rgb(163, 163, 163);
-    margin: 30px;
-    height: 300px;
+header{
+    display: none;
+    width:100%;
+    height: 30px;
+    position: fixed;
+    border-bottom: 2px solid black;
 }
 
-.headline{
-    border: 1px solid red;
+.linksresponsive{
+    padding: 15px;
+    text-decoration: none;
+    color: black;
 }
 
-.headline h2{
-    display: inline-block;
-    border: 1px solid green;
-} */
+

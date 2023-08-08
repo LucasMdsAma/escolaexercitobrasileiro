@@ -1,0 +1,9 @@
+@media screen and (max-width:660px) {
+    .linksmenu{
+        display: none;
+    }
+
+    header{
+        display: block;
+    }
+}
